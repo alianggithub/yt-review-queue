@@ -1,0 +1,44 @@
+database_path: var/queue.sqlite3
+knowledge_base_path: ~/knowledge_base
+
+# Optional: override data directory location via environment variable
+# YT_REVIEW_QUEUE_DATA_HOME=/path/to/data
+
+resolver:
+  schedule: daily
+  expiry_days: 14
+  candidate_window_before_s: 30
+  candidate_window_after_s: 120
+  auto_select_min_confidence: 0.90
+  ambiguity_margin: 0.10
+  algorithm_version: v1-weighted
+
+note_matcher:
+  lookback_hours: 2
+  buffer_after_s: 300
+  min_confidence: 0.70
+  ambiguity_margin: 0.10
+  max_candidates: 20
+  expiry_days: 14
+  algorithm_version: watch-note-v1
+
+privacy:
+  raw_activity_retention_days: 30
+  max_malformed_ratio: 0.10
+
+wiki:
+  auto_request: false
+  max_attempts: 3
+
+telegram:
+  host: 127.0.0.1
+  port: 8080
+  markdown_dir: var/queues
+
+backup:
+  directory: var/backups
+  retain: 14
+
+# Secrets and OAuth tokens do not belong in this YAML. Inject the Telegram
+# webhook secret via YT_REVIEW_QUEUE_WEBHOOK_SECRET and store OAuth token files
+# under protected var/credentials/ or a deployment secret manager.
