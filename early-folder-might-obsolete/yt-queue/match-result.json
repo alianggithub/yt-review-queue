@@ -1,0 +1,78 @@
+[
+  {
+    "id": "row01aaa",
+    "priority": 5,
+    "created_at_unix": 1784202508,
+    "user_note": "open hook",
+    "match": {
+      "video_id": "dQw4w9WgXcQ",
+      "channel": "Rick Astley",
+      "title": "Never Gonna Give You Up",
+      "watched_at_unix": 1784202483,
+      "duration_s": 212,
+      "timestamp_in_clip": 25,
+      "yt_url": "https://youtu.be/dQw4w9WgXcQ?t=25"
+    }
+  },
+  {
+    "id": "row02bbb",
+    "priority": 4,
+    "created_at_unix": 1784201883,
+    "user_note": "before play",
+    "match": null,
+    "reason": "no clip playback interval contains created_at within tol"
+  },
+  {
+    "id": "row03ccc",
+    "priority": 5,
+    "created_at_unix": 1784212283,
+    "user_note": "org-mode bit",
+    "match": {
+      "video_id": "OPf0YbsLlF8",
+      "channel": "Witten",
+      "title": "Doom Emacs in 2024",
+      "watched_at_unix": 1784211483,
+      "duration_s": 1000,
+      "timestamp_in_clip": 800,
+      "yt_url": "https://youtu.be/OPf0YbsLlF8?t=800"
+    }
+  },
+  {
+    "id": "row04ddd",
+    "priority": 3,
+    "created_at_unix": 1784202613,
+    "user_note": "right at end",
+    "match": {
+      "video_id": "dQw4w9WgXcQ",
+      "channel": "Rick Astley",
+      "title": "Never Gonna Give You Up",
+      "watched_at_unix": 1784202483,
+      "duration_s": 212,
+      "timestamp_in_clip": 130,
+      "yt_url": "https://youtu.be/dQw4w9WgXcQ?t=130"
+    }
+  },
+  {
+    "id": "row05eee",
+    "priority": 2,
+    "created_at_unix": 1784134083,
+    "user_note": "yesterday",
+    "match": null,
+    "reason": "no clip playback interval contains created_at within tol"
+  },
+  {
+    "id": "row06fff",
+    "priority": 5,
+    "created_at_unix": 1784215533,
+    "user_note": "wiki talk middle",
+    "match": {
+      "video_id": "rok_A_zV1fE",
+      "channel": "stevekane",
+      "title": "Karpathy LLM Wiki talk",
+      "watched_at_unix": 1784215083,
+      "duration_s": 900,
+      "timestamp_in_clip": 450,
+      "yt_url": "https://youtu.be/rok_A_zV1fE?t=450"
+    }
+  }
+]

@@ -4,30 +4,6 @@ var/
 *.sqlite3-shm
 credentials*.json
 client_secret*.json
-!docs/client_secret_TEMPLATE.json
-*_dp.json
-*_yt.json
 .env
-
-# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-*.egg-info/
-build/
-
-# venv
-.venv/
-venv/
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-.DS_Store
-var/raw/

@@ -1,0 +1,32 @@
+[
+  {
+    "header": "YouTube",
+    "title": "Clip A (long)",
+    "titleUrl": "https://www.youtube.com/watch?v=AAAA1111AAA",
+    "subtitles": [
+      {
+        "name": "chA",
+        "url": ""
+      }
+    ],
+    "time": "2026-07-16T16:32:11.000Z"
+  },
+  {
+    "header": "YouTube",
+    "title": "Clip B (short)",
+    "titleUrl": "https://www.youtube.com/watch?v=BBBB2222BBB",
+    "subtitles": [
+      {
+        "name": "chB",
+        "url": ""
+      }
+    ],
+    "time": "2026-07-16T16:43:51.000Z"
+  },
+  {
+    "header": "YouTube",
+    "title": "garbage time",
+    "titleUrl": "https://www.youtube.com/watch?v=CCCC3333CCC",
+    "time": "not-a-date"
+  }
+]

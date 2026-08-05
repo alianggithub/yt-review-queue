@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ov01",
+    "priority": 5,
+    "created_at_unix": 1784220281,
+    "user_note": "in overlap, closer to B start"
+  },
+  {
+    "id": "ov02",
+    "priority": 5,
+    "created_at_unix": 1784220131,
+    "user_note": "clip A only"
+  }
+]
